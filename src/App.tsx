@@ -1,12 +1,7 @@
-import { useAuthenticator } from "@aws-amplify/ui-react";
+import Layout from "./components/Layout";
 
 function App() {
-  const { signOut } = useAuthenticator();
-  return (
-    <main>
-      <button onClick={signOut}>Sign out</button>
-    </main>
-  );
+  return <Layout />;
 }
 
 export default App;
