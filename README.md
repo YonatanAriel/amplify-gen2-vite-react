@@ -1,25 +1,11 @@
-## AWS Amplify React+Vite Starter Template
-
-This repository provides a starter template for creating applications using React+Vite and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
+# Amplify Gen 2 Project
 
 ## Overview
-
-This template equips you with a foundational React application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+This project is built using **AWS Amplify Gen 2**, leveraging the capabilities of Amplify's sandbox environment for local development and secrets management. It integrates **Google OAuth** for user authentication and is configured for deployment via a CI/CD pipeline with Git.
 
 ## Features
-
-- **Authentication**: Setup with Amazon Cognito for secure user authentication.
-- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
-- **Database**: Real-time database powered by Amazon DynamoDB.
-
-## Deploying to AWS
-
-For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/react/start/quickstart/#deploy-a-fullstack-app-to-aws) of our documentation.
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
+- **AWS Amplify Gen 2**: Modern backend architecture with easy configuration and setup.
+- **Sandbox Environment**: Isolated development environment for safe testing and experimentation.
+- **Secrets Management**: Secure handling of sensitive data using Amplify's secrets management.
+- **Google OAuth**: User authentication via Google, with appropriate redirect URIs configured.
+- **CI/CD Integration**: Continuous integration and deployment pipeline configured via Git.
